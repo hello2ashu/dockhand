@@ -72,7 +72,7 @@ services:
     networks:
       - notesnook
     volumes:
-      - /volume1/docker/notesnook/data::/data/s3
+      - /volume1/docker/notesnook/data:/data/s3
     environment:
       MINIO_BROWSER: "on"
     depends_on:
